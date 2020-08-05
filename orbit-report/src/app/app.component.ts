@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Satellite } from './satellite';
 
 @Component({
@@ -8,9 +8,7 @@ import { Satellite } from './satellite';
 })
 export class AppComponent {
   title = 'orbit-report';
-}
 
-export class AppSatellite {   
   sourceList: Satellite[];
 
   constructor() {
@@ -22,5 +20,7 @@ export class AppSatellite {
       new Satellite("ISS", "Space Station", "1998-11-20", "LOW", true),
     ];
   }
+
+  headers = [1,2,3,4,5];
 }
 
