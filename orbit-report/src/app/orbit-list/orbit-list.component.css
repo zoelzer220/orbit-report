@@ -1,6 +1,6 @@
 .sortable {
     cursor: pointer;
-    color: #dd5;
+    color: orange
 }
 
 .warning {
@@ -17,7 +17,7 @@ table {
 }
 
 .header-row {
-    background: #34495E;
+    background: navy;
     color: #fff
 }
 
@@ -28,5 +28,5 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: lightcyan;
 }

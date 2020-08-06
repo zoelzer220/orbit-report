@@ -50,5 +50,16 @@ export class AppComponent {
     this.displayList = matchingSatellites;
  }
 
+//  count(type: string) {
+//     for(let i = 0; i <this.sourceList.length; i++) {
+//       let count = 0;
+//       if (this.displayList[i].type == type) {
+//         count = count + 1;
+//       }
+//       return count;
+//     }
+  
+//   }
+
 }
 
